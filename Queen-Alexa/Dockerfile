@@ -1,11 +1,1 @@
-FROM fusuf/whatsasena:latest
-
-RUN git clone https://github.com/Kavindya-X/ALEXA /root/ales
-WORKDIR /root/ales/
-RUN git clone https://github.com/Kavindya-X/Config
-RUN git clone https://github.com/Kavindya-X/Angela-x
-ENV TZ=Europe/Istanbul
-RUN npm install supervisor -g
-RUN yarn install --no-audit
-
-CMD ["node", "bot.js"]
+0×0×0×0×0×0×0×0×0×0×0×0×0×0×0×0×0×0×0×0×0×0×0×0×0×0×0/0/0/0/0/0/×/0/×0×/×0/×0/×0/×0/×0/×0/×0/×0/×0/×1×1×1×1×1×2×2×2×2×2×2×2×1×1××31××3×5×7×9×6×5×7×7×7×7×8×8×8×8×8×8×8×818×8×8×9×9×0×0×0×0×0/×0×_×0×/×0×/×0×/×0×_×0×/×0×=×0×=0=0/×/×9×=×%×/×/×/×/×9×/×/×/×6×/×/×/×5×/×5×/×/×5×//×_×6/×/×/b×b×6/×//×_5×
