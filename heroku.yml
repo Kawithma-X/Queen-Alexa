@@ -1,5 +1,5 @@
 build:
   docker:
-      worker: /Queen-Alexa/Dockerfile
+      worker: /Queen-Alexa/ChamodKeshan
 run:
    worker: npm start
