@@ -1,0 +1,5 @@
+build:
+  docker:
+      worker: /Queen-Alexa/Dockerfile
+run:
+   worker: npm start

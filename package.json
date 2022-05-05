@@ -1,6 +1,6 @@
 {
   "name": "Queen-Alexa",
-  "version": "8.1.0",
+  "version": "8.1.1",
   "description": "❤️Queen Alexa is a POWERFULL Whatsapp userbot helping to improve your Whatsapp experience.",
   "main": "./ales/alexa.js",
   "scripts": {

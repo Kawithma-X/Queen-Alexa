@@ -89,6 +89,16 @@
             "required": true,
             "value": "Made By 👩‍🦰Queen  Alexa"
         },
+        "OWNER_SHIP": {
+            "description": "💕owner name./💗අයිතිකරුගේ නම",
+            "required": true,
+            "value": "En-cuzier"
+        },
+        "OWNER_NUMBER": {
+            "description": "owner number./අයිතිකරුගේ number එක",
+            "required": true,
+            "value": "94786825798"
+        },
         "MUTE_MESSAGE": {
             "description": "Message received when mute a group. If you do not want to change this message, type default./group වහද්දී ඔයා විසින් යවන පනිවිඩය.",
             "required": false,
@@ -177,6 +187,10 @@
             "description": "Auto reply with voice chat coming soon/එය auto reply එකකි.voice reply.එය තවම සූදානම් නැත ලගදීම බලාපොරොත්තු වන්න.(ඔයාට පුළුවන් අපිට ඒකට voice වලින් සහයෝගයක් දෙන්න)",
             "required": false
         },
+        "BOT_PASSWORD": {
+            "description": "this password to commond connection.is coming soon.you can go this step skip./එය අත්‍යවශ්‍ය නොවේ එය සමහර විදාන සදහා අවශ්‍ය එකකි.ඈය හිස්ව තැබිය හැකිය.",
+            "required": false
+        },
         "ALIVE_MESSAGE": {
             "description": "The message you get when you check whether the bot is online or not. This is not necessarily the case.",
             "required": false,
@@ -245,7 +259,7 @@
         "MENU_INFO": {
             "description": "write Some Words about yor Bot You can Edite this",
             "required": false,
-            "value": "🧜‍♀ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ ɪꜱ ᴀ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ. ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ©️ᴛᴇᴇɴᴜ Use ᴇᴀꜱʏ ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ᴘᴇʀᴇᴄᴛʟʏ..🎨ꜱᴏ ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ ɪꜱ ʙᴇꜱᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ🧞‍♀️!!"
+            "value": "🧜‍♀Queen ᴀʟᴇxᴀ ɪꜱ ᴀ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ. ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ Alexa team Use ᴇᴀꜱʏ ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ᴘᴇʀᴇᴄᴛʟʏ..🎨ꜱᴏ Queen ᴀʟᴇxᴀ ɪꜱ ʙᴇꜱᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ🧞‍♀️!!"
         }
     },
     "addons": [{
