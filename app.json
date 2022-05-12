@@ -1,19 +1,19 @@
 {
-    "name": "Queen Alexa New",
+    "name": "Amazone Alexa V8",
     "description": "Alexa is a chat bot for WhatsApp. Makes it easy and Working perfectly",
-    "logo": "https://telegra.ph/file/2046371f4b8e65dd4d52e.jpg",
-    "keywords": ["whatsapp", "userbot", "bot", "api", "ai", "queen alexa"],
+    "logo": "https://i.ibb.co/7pQSWHh/IMG-20220506-WA0000.jpg",
+    "keywords": ["whatsapp", "userbot", "bot", "api", "ai", "amazone alexa"],
     "repository": "https://chat.whatsapp.com/EzQHXDVCU088IaunEuTJ7B",
     "website":   "https://chat.whatsapp.com/EzQHXDVCU088IaunEuTJ7B",
     "success_url": "https://chat.whatsapp.com/EzQHXDVCU088IaunEuTJ7B",
     "stack": "container",
     "env": {
-        "QUEEN_NEUTRO_SESSION": {
-            "description": "Paste your QR session./ඔයා qr scan කරලා ආපු code එක මෙතන paste කරන්න.",
+        "NEUTRO_SESSION": {
+            "description": "Paste your QR session.",
             "required": true
         },
         "SUDO": {
-            "description": "If you do not know how to use it, leave it blank! SUDO mode; Your number must be an international number. So you have to have your number after the country code. Example: 947xxxxxxxx (Sri lanka No. 94)/ඔයාගේ bot වැඩ කරන තවත් නම්බර්.ඒ කියන්නේ ඔයාගේ owner commond,bot private දැම්මත්,bot off කරන්න වගේ ඒවා කරන්න පුළුවන්. උදාහරණ:947xxxxxxxxx (Sri lanka නම්බර්)",
+            "description": "If you do not know how to use it, leave it blank! SUDO mode; Your number must be an international number. So you have to have your number after the country code. Example: 947xxxxxxxx (Sri lanka No. 94)",
             "required": false
         },
         "BIO": {
@@ -22,32 +22,32 @@
             "value": "ɪ ᴀᵐ ⁿᵒᵗ ᵖᵉʳᶠᵉᶜᵗ ʙᵘᵗ ɪ  ᴀᵐ ʟⁱᵐⁱᵗᵉᵈ ᴇᵈⁱᵗⁱᵒⁿ👀🔥"
         },
         "AUTO_STICKER": {
-            "description": "If you likes Auto Sticker you can write 'true'. Otherwise false./එය auto reply වශයෙන් sticker යවයි.",
+            "description": "If you likes Auto Sticker you can write 'true'. Otherwise false",
             "required": false,
             "value": "false"
          },
         "BOT_NAME": {
-            "description": "give a name you disire to give your bot (for auto reply white to identify)ඔබගේ bot ගේ නාමය.",
+            "description": "give a name you disire to give your bot (for auto reply white to identify)",
             "required": false,
-            "value": "👩‍🦰©Queen Alexa"
+            "value": "👩‍🦰©Amazone Alexa"
         },
         "FULL_ALEXA": {
-            "description": "Activate alexa chat bot./එය auto chat bot ය.",
+            "description": "Activate alexa chat bot",
             "required": false,
             "value": "false"
         },
         "SONGD": {
-            "description": "Customizable Song Download message/song download කිරීමේ පනිවිඩය.",
+            "description": "Customizable Song Download message",
             "required": false,
             "value": "*◦•●◉Downloading Your Song◉●•◦*"
         },
         "SONGU": {
-            "description": "Customizable Song upload message/song upload කිරීමේ පනිවිඩය.",
+            "description": "Customizable Song upload message",
             "required": false,
             "value": "*◦•●◉✿Uploading Your Song✿◉●•◦*"
         },
         "LANGUAGE": {
-            "description": "Enter your language. SI - Sinhala | EN - English | ES - Spanish(ag)/ඔබගේ භාෂාව යොදන්න(සිංහල නම් SI | ඉංග්‍රීසි නම් EN).",
+            "description": "Enter your language. SI - Sinhala | EN - English | ES - Spanish(ag)",
             "required": true,
             "value": "SI"
         },
@@ -72,12 +72,12 @@
             "value": "true"
         },
         "HEROKU": {
-            "description": "Please You Use Heroku App Name./ඔයා App Name එකම මෙතනට දාන්න.",
+            "description": "Heroku",
             "required": true,
             "value": "true"
         },
         "HEROKU_API_KEY": {
-            "description": "https://dashboard.heroku.com/account Click this link. Scroll down for the API key. Then click the Reveal button. Copy the API key and paste the API Key empty box below./ඔයාගේ heroku api එක paste කරන්න.",
+            "description": "https://dashboard.heroku.com/account Click this link. Scroll down for the API key. Then click the Reveal button. Copy the API key and paste the API Key empty box below.",
             "required": true
         },
         "HEROKU_APP_NAME": {
@@ -85,42 +85,32 @@
             "required": true
         },
         "CAPTIONS": {
-            "description": "Set your caption under medias./ඔයා යවන media වල made by නම යොදන්න",
+            "description": "Set your caption under medias.",
             "required": true,
-            "value": "Made By 👩‍🦰Queen  Alexa"
-        },
-        "OWNER_SHIP": {
-            "description": "💕owner name./💗අයිතිකරුගේ නම",
-            "required": true,
-            "value": "En-cuzier"
-        },
-        "OWNER_NUMBER": {
-            "description": "owner number./අයිතිකරුගේ number එක",
-            "required": true,
-            "value": "94786825798"
+            "value": "Made By 👩‍🦰Amazone Alexa"
         },
         "MUTE_MESSAGE": {
-            "description": "Message received when mute a group. If you do not want to change this message, type default./group වහද්දී ඔයා විසින් යවන පනිවිඩය.",
+            "description": "Message received when mute a group. If you do not want to change this message, type default.",
             "required": false,
             "value": "default"
         },
         "BLOCK_CHAT": {
-            "description": "Select the chat where the bot does not work. Ex: 947xxxxxxxx && 947xxxxxxxx හෝ 947xxxxxxxx,947xxxxxxxx/බොට් වැඩ නොකරන නම්බර්.",
+            "description": "Select the chat where the bot does not work. Ex: 947xxxxxxxx && 947xxxxxxxx හෝ 947xxxxxxxx,947xxxxxxxx",
             "required": false,
             "value": "no chats added"
         },
         "ANTI_BAD": {
-            "description": "Activate Anti-Bad word for your groups. (Use true or false)නරක වචන කියන්නන් group එකෙන් auto remove කිරීම.",
+            "description": "Activate Anti-Bad word for your groups. (Use true or false)",
             "required": true,
             "value": "false"
         },
         "WHATS_LINK_BLOCK": {
-            "description": "Activate Whatsapp link block for your groups. And protect your groups by bug bots.(Use true or false)/group link share කරන්නන් remove කිරීම.",
+            "description": "Activate Whatsapp link block for your groups. And protect your groups by bug bots.(Use true or false)",
             "required": true,
             "value": "false"
         },
         "ALIVE_LOGO": {
-            "description": "Alive message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)/ඔයාගේ bot වැඩ ද බලද්දී bot යවන image එක.",
+            "description": "Alive message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)",
             "required": true,
             "value": "https://telegra.ph/file/2046371f4b8e65dd4d52e.jpg"
         },
@@ -181,14 +171,6 @@
         },
         "REMOVE_BG_API_KEY": {
             "description": "Here you go to the website remove.bg and sign up and get an API key. Leave the API key in this space.",
-            "required": false
-        },
-        "VOICE_REPLY": {
-            "description": "Auto reply with voice chat coming soon/එය auto reply එකකි.voice reply.එය තවම සූදානම් නැත ලගදීම බලාපොරොත්තු වන්න.(ඔයාට පුළුවන් අපිට ඒකට voice වලින් සහයෝගයක් දෙන්න)",
-            "required": false
-        },
-        "BOT_PASSWORD": {
-            "description": "this password to commond connection.is coming soon.you can go this step skip./එය අත්‍යවශ්‍ය නොවේ එය සමහර විදාන සදහා අවශ්‍ය එකකි.ඈය හිස්ව තැබිය හැකිය.",
             "required": false
         },
         "ALIVE_MESSAGE": {
@@ -259,7 +241,7 @@
         "MENU_INFO": {
             "description": "write Some Words about yor Bot You can Edite this",
             "required": false,
-            "value": "🧜‍♀Queen ᴀʟᴇxᴀ ɪꜱ ᴀ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ. ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ Alexa team Use ᴇᴀꜱʏ ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ᴘᴇʀᴇᴄᴛʟʏ..🎨ꜱᴏ Queen ᴀʟᴇxᴀ ɪꜱ ʙᴇꜱᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ🧞‍♀️!!"
+            "value": "🧜‍♀ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ ɪꜱ ᴀ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ. ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ©️ᴛᴇᴇɴᴜ Use ᴇᴀꜱʏ ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ᴘᴇʀᴇᴄᴛʟʏ..🎨ꜱᴏ ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ ɪꜱ ʙᴇꜱᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ🧞‍♀️!!"
         }
     },
     "addons": [{
